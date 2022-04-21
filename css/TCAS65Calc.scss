@@ -1,0 +1,65 @@
+.panel {
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    max-width: 80vw;
+}
+
+@media (max-width: 720px) {
+    .panel{
+        max-width: 100vw;
+        width:100vw;
+    }
+  }
+
+.formpanel {
+    text-align: left;
+}
+
+.ItemInput {
+    text-align: left;
+    width: 10rem;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    // align-items: center;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.selectpanel {
+    margin-bottom: 1rem;
+}
+
+.InputGPA {
+    margin-bottom: 1rem;
+}
+
+.InputGAT {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.InputPAT {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.InputSAMAN {
+    text-align: left;
+    margin-bottom: 1rem;
+}
+
+.summarypanel {
+    margin-top: 1rem;
+}
